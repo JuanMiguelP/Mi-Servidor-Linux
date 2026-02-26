@@ -1,0 +1,7 @@
+drwxr-xr-x root/root         0 2026-02-26 09:01 ./backup_sistema/
+-rw-r--r-- root/root      1830 2026-02-26 09:01 ./backup_sistema/passwd
+-rw-r----- root/root       999 2026-02-26 09:01 ./backup_sistema/shadow
+drwxr-xr-x root/root         0 2026-02-26 09:01 ./backup_sistema/sites-available/
+-rw-r--r-- root/root      1286 2026-02-26 09:01 ./backup_sistema/sites-available/000-default.conf
+-rw-r--r-- root/root      4573 2026-02-26 09:01 ./backup_sistema/sites-available/default-ssl.conf
+-rw-r--r-- root/root       840 2026-02-26 09:01 ./backup_sistema/group
