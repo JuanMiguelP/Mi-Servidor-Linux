@@ -1,0 +1,20 @@
+[    3.083544] i2c i2c-0: 1/1 memory slots populated (from DMI)
+[    3.083548] i2c i2c-0: Memory type 0x07 not supported yet, not instantiating SPD
+[    3.193863] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[    3.194054] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[    3.194148] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[    3.207775] kvm_amd: TSC scaling supported
+[    3.207780] kvm_amd: Nested Virtualization enabled
+[    3.207781] kvm_amd: Nested Paging enabled
+[    3.207785] kvm_amd: LBR virtualization supported
+[    3.207787] kvm_amd: Virtual GIF supported
+[    3.207788] kvm_amd: Virtual NMI enabled
+[    3.242925] snd_hda_codec_generic hdaudioC0D0: autoconfig for Generic: line_outs=1 (0x3/0x0/0x0/0x0/0x0) type:line
+[    3.242931] snd_hda_codec_generic hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    3.242933] snd_hda_codec_generic hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[    3.242935] snd_hda_codec_generic hdaudioC0D0:    mono: mono_out=0x0
+[    3.242936] snd_hda_codec_generic hdaudioC0D0:    inputs:
+[    3.242938] snd_hda_codec_generic hdaudioC0D0:      Line=0x5
+[    3.433090] NET: Registered PF_QIPCRTR protocol family
+[    3.444925] loop0: detected capacity change from 0 to 8
+[   32.618245] systemd-journald[371]: /var/log/journal/d5a6b42738f24cb3b292b7f7419afe2b/user-1000.journal: Journal file uses a different sequence number ID, rotating.

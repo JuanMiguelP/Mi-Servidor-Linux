@@ -1,0 +1,50 @@
+2026-02-27T09:00:15.052202+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:00:15.052336+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:05:01.736486+00:00 serverpruebas CRON[1305]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T09:09:45.046416+00:00 serverpruebas systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-02-27T09:09:45.073265+00:00 serverpruebas systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-02-27T09:09:45.073395+00:00 serverpruebas systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-02-27T09:10:15.045449+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T09:10:15.048348+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:10:15.048482+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:15:01.737148+00:00 serverpruebas CRON[1318]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T09:17:01.753332+00:00 serverpruebas CRON[1322]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-02-27T09:20:15.046488+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T09:20:15.050231+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:20:15.050377+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:25:01.763296+00:00 serverpruebas CRON[1331]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T09:26:57.983507+00:00 serverpruebas systemd[1]: Starting fwupd-refresh.service - Refresh fwupd metadata and update motd...
+2026-02-27T09:26:58.025124+00:00 serverpruebas dbus-daemon[734]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.15' (uid=989 pid=1333 comm="/usr/bin/fwupdmgr refresh" label="unconfined")
+2026-02-27T09:26:58.034214+00:00 serverpruebas systemd[1]: Starting fwupd.service - Firmware update daemon...
+2026-02-27T09:26:58.102981+00:00 serverpruebas dbus-daemon[734]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.16' (uid=0 pid=1338 comm="/usr/libexec/fwupd/fwupd" label="unconfined")
+2026-02-27T09:26:58.114468+00:00 serverpruebas systemd[1]: Starting upower.service - Daemon for power management...
+2026-02-27T09:26:58.146933+00:00 serverpruebas dbus-daemon[734]: [system] Successfully activated service 'org.freedesktop.UPower'
+2026-02-27T09:26:58.146993+00:00 serverpruebas systemd[1]: Started upower.service - Daemon for power management.
+2026-02-27T09:26:58.237504+00:00 serverpruebas fwupd[1338]: 09:26:58.237 FuEngine             failed to add device /sys/devices/pci0000:00/0000:00:1f.2/ata1/host0/target0:0:0/0:0:0:0/block/sr0: failed to open /dev/sr0: No medium found
+2026-02-27T09:26:58.246625+00:00 serverpruebas fwupd[1338]: 09:26:58.246 FuMain               fwupd 1.9.33 ready for requests (locale es_ES.UTF-8)
+2026-02-27T09:26:58.247364+00:00 serverpruebas dbus-daemon[734]: [system] Successfully activated service 'org.freedesktop.fwupd'
+2026-02-27T09:26:58.247437+00:00 serverpruebas systemd[1]: Started fwupd.service - Firmware update daemon.
+2026-02-27T09:26:58.259186+00:00 serverpruebas fwupdmgr[1333]: Updating lvfs
+2026-02-27T09:26:59.021009+00:00 serverpruebas fwupdmgr[1333]: Successfully downloaded new metadata: 0 local devices supported
+2026-02-27T09:26:59.024610+00:00 serverpruebas systemd[1]: fwupd-refresh.service: Deactivated successfully.
+2026-02-27T09:26:59.024677+00:00 serverpruebas systemd[1]: Finished fwupd-refresh.service - Refresh fwupd metadata and update motd.
+2026-02-27T09:30:15.045474+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T09:30:15.049085+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:30:15.049162+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:31:59.173849+00:00 serverpruebas systemd[1]: fwupd.service: Deactivated successfully.
+2026-02-27T09:35:01.769313+00:00 serverpruebas CRON[1390]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T09:40:05.047474+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T09:40:05.056435+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:40:05.056493+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:44:45.046381+00:00 serverpruebas systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2026-02-27T09:44:45.997911+00:00 serverpruebas systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2026-02-27T09:44:45.998028+00:00 serverpruebas systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2026-02-27T09:45:01.777881+00:00 serverpruebas CRON[1561]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T09:50:15.045458+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T09:50:15.048837+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T09:50:15.048881+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T09:55:01.785467+00:00 serverpruebas CRON[1607]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-02-27T10:00:15.046575+00:00 serverpruebas systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-02-27T10:00:15.049785+00:00 serverpruebas systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-02-27T10:00:15.049832+00:00 serverpruebas systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-02-27T10:05:01.793474+00:00 serverpruebas CRON[1671]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
