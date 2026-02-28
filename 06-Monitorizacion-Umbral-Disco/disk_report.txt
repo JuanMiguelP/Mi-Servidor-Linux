@@ -1,0 +1,6 @@
+[2026-02-28 09:48:03] Iniciando comprobación de: /
+ESTADO: OK - Uso actual al 32%.
+----------------------------------------------------
+[2026-02-28 09:56:31] Iniciando comprobación de: /
+ESTADO: CRÍTICO - Uso al 32%. Superado el umbral del 10%.
+----------------------------------------------------
